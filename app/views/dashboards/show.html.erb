@@ -1,0 +1,8 @@
+<h1>Hi <%= current_user.username %>, Welcome to your Dashboard</h1>
+
+<%= form_for @shout do |shout| %>
+ <%= form.text_field :body, placeholder: "Shout it out" %>
+ <%= form.submit %>
+<% end %>
+
+<%= render @shouts %>
