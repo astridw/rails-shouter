@@ -18,6 +18,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'monban'
 gem 'monban-generators'
+gem 'record_tag_helper', '~> 1.0'
 
 
 
